@@ -156,11 +156,8 @@ h3 > a:hover {
 }
 
 .sights-table > .line {
-	
+	margin: 10px;
 }
-
-
-
 
 
 .sights-container {
@@ -204,4 +201,9 @@ h3 > a:hover {
 
 	width: 500px;
 	height: 200px;
+}
+
+caption > h2::after {
+	content: '';
+	text-shadow: 1px 1px 2px white;
 }
