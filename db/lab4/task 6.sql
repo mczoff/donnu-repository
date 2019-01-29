@@ -1,1 +1,0 @@
-DECLARE @Perem1 varchar(1000), @Perem2 int
