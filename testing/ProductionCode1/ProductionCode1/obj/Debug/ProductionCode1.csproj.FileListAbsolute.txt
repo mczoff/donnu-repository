@@ -1,0 +1,6 @@
+C:\Users\Robert Horvald\source\repos\ProductionCode1\ProductionCode1\bin\Debug\ProductionCode1.dll
+C:\Users\Robert Horvald\source\repos\ProductionCode1\ProductionCode1\bin\Debug\ProductionCode1.pdb
+C:\Users\Robert Horvald\source\repos\ProductionCode1\ProductionCode1\obj\Debug\ProductionCode1.csprojAssemblyReference.cache
+C:\Users\Robert Horvald\source\repos\ProductionCode1\ProductionCode1\obj\Debug\ProductionCode1.csproj.CoreCompileInputs.cache
+C:\Users\Robert Horvald\source\repos\ProductionCode1\ProductionCode1\obj\Debug\ProductionCode1.dll
+C:\Users\Robert Horvald\source\repos\ProductionCode1\ProductionCode1\obj\Debug\ProductionCode1.pdb
