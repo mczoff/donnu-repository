@@ -30,7 +30,7 @@ namespace SyntacticAnalysisASM.Core
             var lines = code.Split(new[] { "\r\n", }, StringSplitOptions.RemoveEmptyEntries).Select(t => t.TrimStart(' ').TrimEnd(' ')).ToArray();
             var codeLines = lines.Select((t,i) => _analizatorLine.Analize(i,t)).ToArray();
 
-            codeLines.Select(t => _validatorLine.Validate(t)).Select((t, i) => new { IndexLine = i + 1, IsError = !t }).Where(t => t.IsError).ToList().ForEach(t => Console.WriteLine($"Error in {t.IndexLine} line"));
+            codeLines.ToList().ForEach(t => t.IsValid = _validatorLine.Validate(t));
             return codeLines;
         }
     }

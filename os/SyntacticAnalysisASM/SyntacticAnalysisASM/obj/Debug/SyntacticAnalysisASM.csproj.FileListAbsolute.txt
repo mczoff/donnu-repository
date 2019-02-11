@@ -8,3 +8,13 @@ C:\Users\Robert Horvald\source\repos\SyntacticAnalysisASM\SyntacticAnalysisASM\o
 C:\Users\Robert Horvald\source\repos\SyntacticAnalysisASM\SyntacticAnalysisASM\bin\Debug\SyntacticAnalysisASM.Core.dll
 C:\Users\Robert Horvald\source\repos\SyntacticAnalysisASM\SyntacticAnalysisASM\bin\Debug\SyntacticAnalysisASM.Core.pdb
 C:\Users\Robert Horvald\source\repos\SyntacticAnalysisASM\SyntacticAnalysisASM\obj\Debug\SyntacticAnalysisASM.csproj.CopyComplete
+C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM\bin\Debug\SyntacticAnalysisASM.exe.config
+C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM\bin\Debug\SyntacticAnalysisASM.exe
+C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM\bin\Debug\SyntacticAnalysisASM.pdb
+C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM\bin\Debug\SyntacticAnalysisASM.Core.dll
+C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM\bin\Debug\SyntacticAnalysisASM.Core.pdb
+C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM\obj\Debug\SyntacticAnalysisASM.csprojAssemblyReference.cache
+C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM\obj\Debug\SyntacticAnalysisASM.csproj.CoreCompileInputs.cache
+C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM\obj\Debug\SyntacticAnalysisASM.csproj.CopyComplete
+C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM\obj\Debug\SyntacticAnalysisASM.exe
+C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM\obj\Debug\SyntacticAnalysisASM.pdb

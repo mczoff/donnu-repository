@@ -4,3 +4,9 @@ C:\Users\Robert Horvald\source\repos\SyntacticAnalysisASM\SyntacticAnalysisASM.C
 C:\Users\Robert Horvald\source\repos\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\obj\Debug\SyntacticAnalysisASM.Core.dll
 C:\Users\Robert Horvald\source\repos\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\obj\Debug\SyntacticAnalysisASM.Core.pdb
 C:\Users\Robert Horvald\source\repos\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\obj\Debug\SyntacticAnalysisASM.Core.csprojAssemblyReference.cache
+C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\bin\Debug\SyntacticAnalysisASM.Core.dll
+C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\bin\Debug\SyntacticAnalysisASM.Core.pdb
+C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\obj\Debug\SyntacticAnalysisASM.Core.csprojAssemblyReference.cache
+C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\obj\Debug\SyntacticAnalysisASM.Core.csproj.CoreCompileInputs.cache
+C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\obj\Debug\SyntacticAnalysisASM.Core.dll
+C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\obj\Debug\SyntacticAnalysisASM.Core.pdb
