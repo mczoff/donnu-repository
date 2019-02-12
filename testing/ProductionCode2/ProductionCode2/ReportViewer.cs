@@ -9,8 +9,8 @@ namespace ProductionCode
     public class ReportViewer
         : IReportViewer
     {
-        public int BlockCount { get; set; }
-        public int UsedSize { get; set; }
+        public int? BlockCount { get; set; }
+        public int? UsedSize { get; set; }
 
         public IFileService FileService { get; set; }
 

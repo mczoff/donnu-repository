@@ -21,7 +21,12 @@ namespace SyntacticAnalysisASM.Core.Validator
             try
             {
                 if (lexemValue.Last() == 'h')
+                {
+                    if (!char.IsDigit(lexemValue.First()))
+                        return false;
+
                     number = int.Parse(lexemValue.TrimEnd('h'), NumberStyles.AllowHexSpecifier);
+                }
                 else
                     number = int.Parse(lexemValue, NumberStyles.Integer);
 

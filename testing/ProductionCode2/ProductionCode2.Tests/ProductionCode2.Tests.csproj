@@ -64,6 +64,7 @@
     <Compile Include="Fakes\FakeStubExceptionFileService.cs" />
     <Compile Include="Fakes\FakeMockFileService.cs" />
     <Compile Include="Fakes\FakeStubFileService.cs" />
+    <Compile Include="FileServiceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReportViewerTests.cs" />
   </ItemGroup>

@@ -10,3 +10,9 @@ C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\Synta
 C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\obj\Debug\SyntacticAnalysisASM.Core.csproj.CoreCompileInputs.cache
 C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\obj\Debug\SyntacticAnalysisASM.Core.dll
 C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\obj\Debug\SyntacticAnalysisASM.Core.pdb
+C:\Users\whaT\Downloads\donnu-repository-master\donnu-repository-master\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\bin\Debug\SyntacticAnalysisASM.Core.dll
+C:\Users\whaT\Downloads\donnu-repository-master\donnu-repository-master\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\bin\Debug\SyntacticAnalysisASM.Core.pdb
+C:\Users\whaT\Downloads\donnu-repository-master\donnu-repository-master\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\obj\Debug\SyntacticAnalysisASM.Core.csprojAssemblyReference.cache
+C:\Users\whaT\Downloads\donnu-repository-master\donnu-repository-master\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\obj\Debug\SyntacticAnalysisASM.Core.csproj.CoreCompileInputs.cache
+C:\Users\whaT\Downloads\donnu-repository-master\donnu-repository-master\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\obj\Debug\SyntacticAnalysisASM.Core.dll
+C:\Users\whaT\Downloads\donnu-repository-master\donnu-repository-master\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\obj\Debug\SyntacticAnalysisASM.Core.pdb

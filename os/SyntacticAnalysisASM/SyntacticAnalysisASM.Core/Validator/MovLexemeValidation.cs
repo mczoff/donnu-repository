@@ -12,6 +12,9 @@ namespace SyntacticAnalysisASM.Core.Validator
     {
         public bool Validate(IEnumerable<ILexeme> lexemes, IEnumerable<ICodeLine> identificatorsLines)
         {
+            if (lexemes.Count() != 4)
+                return false;
+
             if (lexemes.ElementAtOrDefault(2).Code != 1)
                 return false;
 

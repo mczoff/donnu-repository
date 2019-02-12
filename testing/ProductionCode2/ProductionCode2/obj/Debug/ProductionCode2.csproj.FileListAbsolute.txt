@@ -1,6 +1,6 @@
 C:\Users\Robert Horvald\source\repos\ProductionCode2\ProductionCode2\bin\Debug\ProductionCode2.dll
 C:\Users\Robert Horvald\source\repos\ProductionCode2\ProductionCode2\bin\Debug\ProductionCode2.pdb
-C:\Users\Robert Horvald\source\repos\ProductionCode2\ProductionCode2\obj\Debug\ProductionCode2.csprojAssemblyReference.cache
 C:\Users\Robert Horvald\source\repos\ProductionCode2\ProductionCode2\obj\Debug\ProductionCode2.csproj.CoreCompileInputs.cache
 C:\Users\Robert Horvald\source\repos\ProductionCode2\ProductionCode2\obj\Debug\ProductionCode2.dll
 C:\Users\Robert Horvald\source\repos\ProductionCode2\ProductionCode2\obj\Debug\ProductionCode2.pdb
+C:\Users\Robert Horvald\source\repos\ProductionCode2\ProductionCode2\obj\Debug\ProductionCode2.csprojAssemblyReference.cache

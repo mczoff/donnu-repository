@@ -26,7 +26,7 @@ namespace ProductionCode2.Tests
             stubFileService.ReturnValueMergeTemporaryFiles = 0;
             reportViewer.PrepareData(string.Empty);
 
-            Assert.That(stubFileService.MergeTemporaryFiles(string.Empty), Is.EqualTo(reportViewer.BlockCount));
+            Assert.That(reportViewer.BlockCount, Is.EqualTo(null));
         }
 
         [Test]
@@ -39,7 +39,7 @@ namespace ProductionCode2.Tests
 
             reportViewer.PrepareData(string.Empty);
 
-            Assert.That(stubFileService.Object.MergeTemporaryFiles(string.Empty), Is.EqualTo(reportViewer.BlockCount));
+            Assert.That(reportViewer.BlockCount, Is.EqualTo(null));
         }
 
         [Test]
@@ -51,7 +51,7 @@ namespace ProductionCode2.Tests
             stubFileService.ReturnValueMergeTemporaryFiles = 5;
             reportViewer.PrepareData(string.Empty);
 
-            Assert.That(stubFileService.MergeTemporaryFiles(string.Empty), Is.EqualTo(reportViewer.BlockCount));
+            Assert.That(reportViewer.BlockCount, Is.EqualTo(5));
         }
 
         [Test]
@@ -97,11 +97,9 @@ namespace ProductionCode2.Tests
             ReportViewer reportViewer = new ReportViewer(mockFileService);
 
             string directory = string.Empty;
-            double countFiles = reportViewer.BlockCount;
-
             reportViewer.PrepareData(string.Empty);
 
-            Assert.That(mockFileService.MergeTemporaryFilesIsCalledCount, Is.GreaterThan(0));
+            Assert.That(mockFileService.MergeTemporaryFilesIsCalledCount, Is.Not.EqualTo(null));
         }
 
         [Test]
@@ -112,7 +110,6 @@ namespace ProductionCode2.Tests
 
             string directory = string.Empty;
             reportViewer.PrepareData(directory);
-            double countFiles = reportViewer.BlockCount;
 
             mockFileService.Verify(t => t.MergeTemporaryFiles(directory));
         }
