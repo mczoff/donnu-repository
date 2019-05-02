@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SyntacticAnalysisASM.Core.Abstraction
+﻿namespace SyntacticAnalysisASM.Core.Abstraction
 {
+    /// <summary>
+    /// Inteface provide contract for analize code specification (0 - mov and ect).
+    /// </summary>
     public interface IAnalizatorLexeme
     {
         ILexeme Analyze(string spec);

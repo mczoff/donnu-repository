@@ -23,7 +23,7 @@ namespace SyntacticAnalysisASM.Core.Model
             for (int i = 0; i < _lexemeCodeCollection.Count; i++)
             {
                 if (_lexemeCodeCollection[i].Specification.Specificate(spec))
-                    return new Lexeme { Code = _lexemeCodeCollection[i].Code, Validation = _lexemeCodeCollection[i].Validation, Specification = _lexemeCodeCollection[i].Specification, Value = spec };
+                    return new Lexeme { Translator = _lexemeCodeCollection[i].Translator, Code = _lexemeCodeCollection[i].Code, Validation = _lexemeCodeCollection[i].Validation, Specification = _lexemeCodeCollection[i].Specification, Value = spec };
             }
 
             throw new NotSupportedException($"Lexeme with {spec} not found");

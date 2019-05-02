@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SyntacticAnalysisASM.Core</name>
+    </assembly>
+    <members>
+        <member name="T:SyntacticAnalysisASM.Core.Abstraction.IAnalizatorLexeme">
+            <summary>
+            Inteface provide contract for analize code specification (0 - mov and ect).
+            </summary>
+        </member>
+        <member name="T:SyntacticAnalysisASM.Core.Abstraction.IAnalizatorLine">
+            <summary>
+            Interface provide contract for analize code line
+            </summary>
+        </member>
+        <member name="T:SyntacticAnalysisASM.Core.Abstraction.ICodeLine">
+            <summary>
+            Interface provide contract for code line which was recognized, but havent validate
+            </summary>
+        </member>
+        <member name="T:SyntacticAnalysisASM.Core.Abstraction.ILexeme">
+            <summary>
+            Interface Lexeme. Сontains code, value and contract validation and specification
+            </summary>
+        </member>
+        <member name="T:SyntacticAnalysisASM.Core.Abstraction.ILexemeSpecification">
+            <summary>
+            Interface provide contract for specification lexeme, check byte\work and variables names
+            </summary>
+        </member>
+        <member name="T:SyntacticAnalysisASM.Core.Abstraction.IValidatorLine">
+            <summary>
+            Interface provide contract for validation code line
+            </summary>
+        </member>
+    </members>
+</doc>

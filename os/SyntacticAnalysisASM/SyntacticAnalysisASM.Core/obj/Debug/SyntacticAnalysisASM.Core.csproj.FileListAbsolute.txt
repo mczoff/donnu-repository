@@ -16,3 +16,4 @@ C:\Users\whaT\Downloads\donnu-repository-master\donnu-repository-master\os\Synta
 C:\Users\whaT\Downloads\donnu-repository-master\donnu-repository-master\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\obj\Debug\SyntacticAnalysisASM.Core.csproj.CoreCompileInputs.cache
 C:\Users\whaT\Downloads\donnu-repository-master\donnu-repository-master\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\obj\Debug\SyntacticAnalysisASM.Core.dll
 C:\Users\whaT\Downloads\donnu-repository-master\donnu-repository-master\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\obj\Debug\SyntacticAnalysisASM.Core.pdb
+C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Core\bin\Debug\SyntacticAnalysisASM.Core.xml

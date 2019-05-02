@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SyntacticAnalysisASM.Core.Abstraction
+﻿namespace SyntacticAnalysisASM.Core.Abstraction
 {
+    /// <summary>
+    /// Interface provide contract for specification lexeme, check byte\work and variables names
+    /// </summary>
     public interface ILexemeSpecification
     {
         bool Specificate(string param);

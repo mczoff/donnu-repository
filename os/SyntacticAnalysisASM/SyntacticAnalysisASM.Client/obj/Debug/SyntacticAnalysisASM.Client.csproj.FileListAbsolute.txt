@@ -40,3 +40,4 @@ C:\Users\whaT\Downloads\donnu-repository-master\donnu-repository-master\os\Synta
 C:\Users\whaT\Downloads\donnu-repository-master\donnu-repository-master\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Client\obj\Debug\SyntacticAnalysisASM.Client.csproj.CopyComplete
 C:\Users\whaT\Downloads\donnu-repository-master\donnu-repository-master\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Client\obj\Debug\SyntacticAnalysisASM.Client.exe
 C:\Users\whaT\Downloads\donnu-repository-master\donnu-repository-master\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Client\obj\Debug\SyntacticAnalysisASM.Client.pdb
+C:\Users\Robert Horvald\Documents\donnu-repository\os\SyntacticAnalysisASM\SyntacticAnalysisASM.Client\bin\Debug\SyntacticAnalysisASM.Core.xml

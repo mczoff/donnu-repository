@@ -13,11 +13,13 @@ namespace SyntacticAnalysisASM.Core
     {
         readonly IAnalizatorLine _analizatorLine;
         readonly IValidatorLine _validatorLine;
+        readonly ITranslatorLine _translatorLine;
 
         public SyntacticAnalysisASMContext()
         {
             _analizatorLine = new AnalizatorLine();
             _validatorLine = new ValidatorLine();
+            _translatorLine = new TranslatorLine();
         }
 
         public ICodeLine[] Analyze(string code)
@@ -32,6 +34,19 @@ namespace SyntacticAnalysisASM.Core
 
             codeLines.ToList().ForEach(t => t.IsValid = _validatorLine.Validate(t));
             return codeLines;
+        }
+
+        public ITranslateCodeLine[] Translate(string code)
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task<ITranslateCodeLine[]> TranslateAsync(string code)
+        {
+            var codelines = await AnalyzeAsync(code);
+            var translatedCodeLines = codelines.Select(t => _translatorLine.Translate(t));
+
+            return translatedCodeLines.ToArray();
         }
     }
 }

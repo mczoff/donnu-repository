@@ -21,7 +21,7 @@ thous dw 0ff6h
 hund db 78h
 str db 1ah
 
-mul thous
+mul ten
 mul hun
 mul bx
 mul cx
@@ -30,12 +30,13 @@ pop dx
 pop ds
 pop hun
 mov thous,ax
+mov ten,al
 mov al,ten
 mov ax,hun
 mov thous,cs
 mov hun,es
 mov ds,hun
-mov bl, ten";
+mov thous, es";
 
         public string ProgrammText
         {
@@ -71,6 +72,21 @@ mov bl, ten";
 
                             foreach (var line in codeLine)
                                 ErrorText += $"Line {line.IndexLine + 1} - {line.IsValid} {Environment.NewLine}";
+                        }));
+
+        ICommand _translateCodeCommand;
+        public ICommand TranslateCodeCommand
+                => _translateCodeCommand ?? (_translateCodeCommand = new RelayCommand(
+                        async _ =>
+                        {
+                            SyntacticAnalysisASMContext analysisASMContext = new SyntacticAnalysisASMContext();
+
+                            ITranslateCodeLine[] codeLine = await analysisASMContext.TranslateAsync(_programmText);
+
+                            this.ErrorText = string.Empty;
+
+                            foreach (var line in codeLine)
+                                ErrorText += $"Line {line.CodeLine.IndexLine + 1} - [{line.Address.ToString("X4")}] |{line.Source}| {Environment.NewLine}";
                         }));
     }
 }

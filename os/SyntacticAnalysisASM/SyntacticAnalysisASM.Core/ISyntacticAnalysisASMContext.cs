@@ -1,9 +1,4 @@
 ﻿using SyntacticAnalysisASM.Core.Abstraction;
-using SyntacticAnalysisASM.Core.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace SyntacticAnalysisASM.Core
@@ -12,5 +7,8 @@ namespace SyntacticAnalysisASM.Core
     {
         ICodeLine[] Analyze(string code);
         Task<ICodeLine[]> AnalyzeAsync(string code);
+
+        ITranslateCodeLine[] Translate(string code);
+        Task<ITranslateCodeLine[]> TranslateAsync(string code);
     }
 }

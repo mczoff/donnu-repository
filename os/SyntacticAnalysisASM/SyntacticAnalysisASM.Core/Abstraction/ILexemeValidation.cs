@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
+/// <summary>
+/// Interface provide contract for validation enumerable lexeme
+/// </summary>
 namespace SyntacticAnalysisASM.Core.Abstraction
 {
     public interface ILexemeValidation
