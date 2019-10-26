@@ -1,0 +1,6 @@
+C:\Users\mczof\source\repos\Cryptolab2\bin\Debug\Cryptolab2.exe.config
+C:\Users\mczof\source\repos\Cryptolab2\bin\Debug\Cryptolab2.exe
+C:\Users\mczof\source\repos\Cryptolab2\bin\Debug\Cryptolab2.pdb
+C:\Users\mczof\source\repos\Cryptolab2\obj\Debug\Cryptolab2.1.csprojAssemblyReference.cache
+C:\Users\mczof\source\repos\Cryptolab2\obj\Debug\Cryptolab2.exe
+C:\Users\mczof\source\repos\Cryptolab2\obj\Debug\Cryptolab2.pdb
